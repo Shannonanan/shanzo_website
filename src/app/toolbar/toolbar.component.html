@@ -1,4 +1,16 @@
-<mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <span>Custom Toolbar</span>
-    </mat-toolbar-row>
+<mat-toolbar  color="primary">
+  <div class="toolbar">
+  <div>
+  <span matRipple [matRippleColor]="myColor" routerLink = 'home' class="home" id = "1">home</span>
+  </div>
+  <div>
+    <span routerLink = 'about' class="about">about</span>
+  </div>
+  <div>
+    <span routerLink = "projects" class="projects">projects</span>
+  </div>
+  <div>
+      <span routerLink = "contact" class="contact">contact</span>
+    </div>
+</div>
+</mat-toolbar>
