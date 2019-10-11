@@ -1,0 +1,39 @@
+.toolbar{
+   display:flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.home{
+   cursor: pointer;
+   
+}
+
+.about{
+   cursor: pointer;
+}
+
+.projects{
+   cursor: pointer;
+}
+
+.contact{
+   cursor: pointer;
+}
+
+.home:hover  {
+   background-color: aquamarine;
+}
+
+.about:hover  {
+   background-color: rebeccapurple;
+}
+
+.contact:hover  {
+   background-color: lavender;
+}
+
+.projects:hover  {
+   background-color: sandybrown;
+}
